@@ -1,13 +1,16 @@
 {
     "Components": {
+        "CPUParticlesVisualComponent": {
+            "poolSize": 1000
+        },
         "HierarchyComponent": {
             "children": [],
             "parent": 1
         },
         "TransformComponent": {
             "position": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": 1.850000023841858,
+                "y": 0.009999999776482582,
                 "z": 0.0
             },
             "rotation": {
@@ -21,20 +24,10 @@
                 "y": 1.0,
                 "z": 1.0
             }
-        },
-        "VisualComponent": {
-            "color": {
-                "a": 1.0,
-                "b": 0.20000000298023224,
-                "g": 1.0,
-                "r": 0.20000000298023224
-            },
-            "renderPass": 1,
-            "resFile": "game/assets/test/cube.obj"
         }
     },
     "Entity": {
-        "ID": 2,
+        "ID": 10,
         "name": "Cube"
     }
 }
